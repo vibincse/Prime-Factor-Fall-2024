@@ -30,3 +30,7 @@ def test_prime_factors_of_six_returns_two_and_three():
 
 def test_prime_factors_of_eight_returns_three_twos():
     assert generate_prime_factors(8) == [2, 2, 2]
+
+
+def test_prime_factors_of_nine_returns_two_threes():
+    assert generate_prime_factors(9) == [3, 3]
