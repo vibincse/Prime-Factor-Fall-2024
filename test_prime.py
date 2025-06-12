@@ -14,3 +14,7 @@ def test_prime_factors_of_one_returns_empty_list():
 
 def test_prime_factors_of_two_returns_list_with_two():
     assert generate_prime_factors(2) == [2]
+
+
+def test_prime_factors_of_three_returns_list_with_three():
+    assert generate_prime_factors(3) == [3]
